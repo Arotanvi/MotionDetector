@@ -15,4 +15,4 @@ Steps Being followed-:-
 
 =>In order to show time intervals , make a list 'times' and append status into it and convert the list 'times' into required dataframe
 
-=> Image data used to make a rectangle is a numpy matrix and python outputs the images while reading to a numpy matrix
+=> Image data used to make a rectangle is a numpy matrix as python outputs the images while reading to a numpy matrix only
