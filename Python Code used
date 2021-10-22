@@ -42,7 +42,7 @@ df=pd.DataFrame(columns=['Start','End'])
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-#2nd part with Pandas Dataframes 
+#2nd part with Pandas Dataframes and Showing Time Intervals
 #In order to see the times start and end do make the object appear and disappear frequently only then you can see the difference otherwise you can't
 video=cv2.VideoCapture(0)
 while True:
