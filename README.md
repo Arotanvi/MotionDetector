@@ -1,6 +1,8 @@
 # MotionDetector
 Problem statement is - To show a dataframe using pandas which shows time intervals in which motion of a object was there and been captured by Computer's camera and at what time interval there was no motion . 
 
+Library used - opencv , Pandas ,time
+
 Steps Being followed-:-
 1. To use videoCapture() method
 2. to convert the frame to a gray image
@@ -12,3 +14,5 @@ Steps Being followed-:-
 (=> 1 window will show gaussian video , 1 window will show normal colored video with a rectangle around it , 1 window will show threshold based video)
 
 =>In order to show time intervals , make a list 'times' and append status into it and convert the list 'times' into required dataframe
+
+=> Image data used to make a rectangle is a numpy matrix and python outputs the images while reading to a numpy matrix
