@@ -1,3 +1,4 @@
+#1st Basic Part without any Pandas Dataframes
 import cv2,time
 import pandas as pd
 first_frame=None
@@ -39,6 +40,9 @@ status_list=[None,None]
 times=[]
 df=pd.DataFrame(columns=['Start','End'])
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+#2nd part with Pandas Dataframes 
 #In order to see the times start and end do make the object appear and disappear frequently only then you can see the difference otherwise you can't
 video=cv2.VideoCapture(0)
 while True:
